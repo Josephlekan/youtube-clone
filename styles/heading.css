@@ -26,6 +26,7 @@
     
     .youtube-logo{
       height: 100px;
+      opacity: 1;
     }
     
     .middle-section {
@@ -41,6 +42,7 @@
     .mic-icon {
       height: 25px;
       flex:1;
+      
     }
     
     .search-btn,
@@ -96,7 +98,7 @@
       border-radius: 20px;
       border: none;
       background-color: rgb(248, 248, 248);
-   
+      margin-right: 50px;
       
     }
     
