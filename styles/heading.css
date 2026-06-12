@@ -71,7 +71,7 @@
     .notification-container .notify
      {
       position: absolute;
-      bottom: -30;
+      bottom: -30px;
       background-color: gray;
       color: white;
       font-size: 12px;
