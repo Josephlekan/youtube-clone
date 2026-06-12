@@ -1,0 +1,157 @@
+    .header {
+      height: 55px;
+      display: flex;
+      flex-direction: row; 
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: white;
+      border-bottom: solid 1px rgb(228, 228, 228);
+      z-index: 100;
+    }
+    
+    .left-section {
+      display: flex;
+      align-items: center;
+    }
+    
+    .hamburger-menu {
+      height: 30px;
+      margin-left: 20px;
+      margin-right: 15px;
+    }
+    
+    .youtube-logo{
+      height: 100px;
+    }
+    
+    .middle-section {
+      display: flex;
+      align-items: center;
+      flex:1;
+      margin-left: 70px;
+      margin-right: 35px;
+      max-width: 500px;
+    }
+    
+    .search-icon,
+    .mic-icon {
+      height: 25px;
+      flex:1;
+    }
+    
+    .search-btn,
+    .mic-btn,
+    .upload-container,
+    .app-grid-container,
+    .notification-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    
+    .search-btn {
+      width: 45px; 
+      height: 40px;
+      background-color: rgb(240, 240, 240);
+      border: solid 1px rgb(192, 192, 192);
+      margin-right: 50px;
+      border-left: none;
+      
+    }
+    
+    .search-btn div,
+    .mic-btn div,
+    .upload-container div,
+    .app-grid-container div,
+    .notification-container .notify
+     {
+      position: absolute;
+      bottom: -30;
+      background-color: gray;
+      color: white;
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 2px;
+      opacity: 0;
+      transition: opacity 0.15s;
+      white-space: nowrap;
+    }
+    
+    .search-btn:hover div,
+    .mic-btn:hover div,
+    .upload-container:hover div,
+    .app-grid-container:hover div,
+    .notification-container:hover .notify{
+      opacity: 1;
+    }
+    
+    .mic-btn {
+      height: 40px;
+      width: 40px;
+      border-radius: 20px;
+      border: none;
+      background-color: rgb(248, 248, 248);
+   
+      
+    }
+    
+    
+    .right-section {
+      width: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right:20px;
+      flex-shrink: 0;
+    }
+    
+    .text-box {
+      height: 40px;
+      flex: 1;
+      padding-left: 10px;
+      font-size: 16px;
+      border: 1px solid rgb(192, 192, 192);
+      border-radius: 2px;
+      box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+      width: 0;
+    }
+    
+    .text-box::placeholder {
+      font-family: Roboto, Arial;
+    }
+    
+    .upload-icon,
+    .notification-icon,
+    .app-grid-icon {
+      height: 24px;
+      background-color: transparent;
+    }
+    
+    .channel-pic {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+    }
+    
+    .notification-container {
+      position: relative;
+    }
+    
+    .notification-counts {
+      font-family: Arial;
+      font-size: 11px;
+      border-radius: 30px;
+      background-color: rgb(200, 0, 0);
+      color: white;
+      position: absolute;
+      top: -2;
+      right: -5;
+      padding: 2px 5px;
+    }
+    
+    
