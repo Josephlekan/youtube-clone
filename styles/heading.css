@@ -149,8 +149,8 @@
       background-color: rgb(200, 0, 0);
       color: white;
       position: absolute;
-      top: -2;
-      right: -5;
+      top: -2px;
+      right: -5px;
       padding: 2px 5px;
     }
     
